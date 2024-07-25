@@ -58,7 +58,6 @@ const editor = new Editor({
   extensions: [
     SearchNReplace.configure({
       searchResultClass: "search-result", // class to give to found items. default 'search-result'
-      caseSensitive: false, // no need to explain
       disableRegex: false, // also no need to explain
     }),
   ],
